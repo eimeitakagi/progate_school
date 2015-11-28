@@ -1,8 +1,11 @@
 body{
-	height: 1100px;
+	margin: 0;
+	height: 1000px;
 }
 
 li{
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
@@ -10,15 +13,29 @@ a{
 	text-decoration: none;
 }
 
+body a:hover{
+	color: #00CED1;
+	transition: 0.3s;
+}
+
 header{
-	height: 40px;
-	width: 100%;
-	border-bottom: 1px solid #eee;
+	height: 50px;
 	margin: 0;
 	position: fixed;
 	top: 0;
 	left: 0;
+	right: 0;
+	background-color: white;
+	line-height: 50px;
+}
 
+.contain {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+	text-align: center;
 }
 
 .header-left{
@@ -26,23 +43,60 @@ header{
 }
 
 .logo{
-	margin: 20px;
 	font-family: 'Dosis', sans-serif;
 	color: #777;
 	font-weight: bold;
+	font-size: 18px;
 }
 
 .header-right{
 	float:right;
-	margin-right: 10px;
 }
 
 .header-right li{
 	float:left;
-	margin-left: 10px;
+	line-height: 17px;
 }
 
 .header-right a{
 	color: #323A45;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 14px;
+}
 
+.bgc{
+	background-color: rgba(0,0,0,0.6);
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+
+.top{
+	background-image: url("images/backgrounds/top.jpg");
+	background-size: cover;
+	margin: 0 auto;
+	color: white;
+}
+
+
+.top-title{
+	font-size: 48px;
+	font-weight: 200;
+	margin: 25px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.top-text{
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: lighter;
+	margin-bottom: 45px;
+}
+
+.top .btn{
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.05);
+	padding: 15px 21px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	font-size: 18px;
 }
