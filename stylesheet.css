@@ -68,7 +68,7 @@ header{
 .bgc{
 	background-color: rgba(0,0,0,0.6);
 	padding-top: 180px;
-	padding-bottom: 180px;
+	padding-bottom: 150px;
 }
 
 .top{
@@ -96,7 +96,38 @@ header{
 .top .btn{
 	color: rgba(255, 255, 255, 0.8);
 	background-color: rgba(255, 255, 255, 0.05);
-	padding: 15px 21px;
+	padding: 14px 21px;
 	border: 1px solid rgba(255, 255, 255, 0.15);
 	font-size: 18px;
+}
+
+.lesson h2{
+	font-weight: 300;
+	color: #555;
+	font-size: 32px;
+	line-height: 100px;
+}
+
+.lesson-item-title{
+	font-size:14px;
+	color: #777;
+}
+
+.lesson-item-text{
+	color: #D3D3D3;
+	font-size: 14px;
+}
+
+.lesson-top {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.lesson-bottom{
+	display: inline-block;
+}
+
+.lesson-item{
+	margin-bottom:40px;
+	width: 350px;
 }
