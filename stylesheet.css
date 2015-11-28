@@ -1,0 +1,43 @@
+body{
+	height: 1100px;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	height: 40px;
+	border-bottom: 1px solid #eee;
+	margin: 0;
+
+}
+
+.header-left{
+	float:left;
+}
+
+.logo{
+	margin: 20px;
+	font-family: 'Dosis', sans-serif;
+	color: #777;
+	font-weight: bold;
+}
+
+.header-right{
+	float:right;
+}
+
+.header-right li{
+	float:left;
+	margin-left: 10px;
+}
+
+.header-right a{
+	color: #323A45;
+
+}
