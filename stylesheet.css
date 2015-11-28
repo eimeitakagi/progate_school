@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	height: 1000px;
+	padding: 0;
 }
 
 li{
@@ -15,7 +15,13 @@ a{
 
 body a:hover{
 	color: #00CED1;
-	transition: 0.3s;
+	transition: all 0.4s;
+}
+
+body .top-btn:hover{
+	border: 1px solid white;
+	transition: all 0.4s;
+	color: rgba(255, 255, 255, 0.8);
 }
 
 header{
@@ -27,6 +33,8 @@ header{
 	right: 0;
 	background-color: white;
 	line-height: 50px;
+	box-shadow: 0 2px #dcdcdc;
+	z-index: 10;
 }
 
 .contain {
@@ -35,7 +43,6 @@ header{
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-	text-align: center;
 }
 
 .header-left{
@@ -76,6 +83,7 @@ header{
 	background-size: cover;
 	margin: 0 auto;
 	color: white;
+	text-align: center;
 }
 
 
@@ -93,7 +101,7 @@ header{
 	margin-bottom: 45px;
 }
 
-.top .btn{
+.top-btn{
 	color: rgba(255, 255, 255, 0.8);
 	background-color: rgba(255, 255, 255, 0.05);
 	padding: 14px 21px;
@@ -101,21 +109,28 @@ header{
 	font-size: 18px;
 }
 
-.lesson h2{
-	font-weight: 300;
+.contain h2{
+	font-weight: 200;
 	color: #555;
 	font-size: 32px;
 	line-height: 100px;
 }
 
-.lesson-item-title{
-	font-size:14px;
-	color: #777;
+.contain h3{
+	font-size:18px;
+	color: #444;
+	font-weight: 300;
 }
 
-.lesson-item-text{
-	color: #D3D3D3;
+.contain p{
+	color: #777;
 	font-size: 14px;
+	font-weight: 200;
+	font-family: sans-serif;
+}
+
+.lesson{
+	text-align: center;
 }
 
 .lesson-top {
@@ -130,4 +145,47 @@ header{
 .lesson-item{
 	margin-bottom:40px;
 	width: 350px;
+}
+
+.char{
+	margin-top: 50px;
+}
+
+.char h2{
+position: relative;
+top: 40px;
+z-index: 0;
+}
+
+.char-top{
+	background-color: #F5F5F5;
+	height: 380px;
+	text-align: center;
+}
+
+.char-bottom{
+	margin-top:100px;
+	margin-bottom: 30px;
+	padding-left: 95px;
+}
+
+.char-item{
+	display: inline-block;
+	width:40%;
+	vertical-align: top;
+	margin-right: 80px;
+margin-bottom: 30px;
+}
+
+.char-bottom h3{
+	font-size:18px;
+	color: #444;
+	font-weight: 300;
+}
+
+.char-bottom p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 200;
+	font-family: sans-serif;
 }
