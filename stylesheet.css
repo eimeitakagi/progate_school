@@ -85,6 +85,93 @@ header{
 	color: white;
 	text-align: center;
 }
+body{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body a:hover{
+	color: #00CED1;
+	transition: all 0.4s;
+}
+
+body .top-btn:hover{
+	border: 1px solid white;
+	transition: all 0.4s;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+header{
+	height: 50px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	line-height: 50px;
+	box-shadow: 0 2px #dcdcdc;
+	z-index: 10;
+}
+
+.contain {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-left{
+	float:left;
+}
+
+.logo{
+	font-family: 'Dosis', sans-serif;
+	color: #777;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.header-right{
+	float:right;
+}
+
+.header-right li{
+	float:left;
+	line-height: 17px;
+}
+
+.header-right a{
+	color: #323A45;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.bgc{
+	background-color: rgba(0,0,0,0.6);
+	padding-top: 180px;
+	padding-bottom: 150px;
+}
+
+.top{
+	background-image: url("images/backgrounds/top.jpg");
+	background-size: cover;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
 
 
 .top-title{
@@ -188,4 +275,118 @@ margin-bottom: 30px;
 	font-size: 14px;
 	font-weight: 200;
 	font-family: sans-serif;
+}
+
+.course{
+	background-color: #F5F5F5;
+	text-align: center;
+	height: 850px;
+}
+
+.course-title{
+	padding-top: 30px;
+}
+
+.course-item{
+	display: inline-block;
+	background-color: white;
+	width: 30%;
+	margin: 10px;
+	height: 600px;
+}
+
+.course-title h2{
+	line-height: 60px;
+}
+
+.course-header{
+	margin: 15px;
+}
+
+.header-top{
+	background-color: #323A45;
+}
+
+.contain .header-top{
+	color: white;
+}
+
+.header-bottom{
+	background-color: #F5F5F5;
+}
+
+.selected{
+	background-color: #00CED1	;
+}
+
+.course-content li{
+	color: #888;
+	font-size: 14px;
+	font-weight: 200;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #888;
+	padding-bottom: 20px;
+}
+
+.course-btn{
+	background-color: #333;
+	color: #c9d1d6;
+	padding: 18px 23px;
+}
+
+body .course-btn:hover{
+	transition: all 0.5s;
+	background-color:#444;
+	color: #ddd;
+}
+
+.mentor{
+	text-align: center;
+}
+
+.mentor-item{
+	width: 850px;
+	margin: 0 auto;
+}
+
+.mentor-item img{
+	height: 200px;
+	width: 200px;
+	border-radius: 300px;
+}
+
+.mentor-item p{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.mentor-item h6{
+	color: #999;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.message{
+	background-image: url("images/backgrounds/night_view.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+.message-bgc{
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 120px 0;
+	height: 100%;
+}
+
+.message h4{
+	color: white;
+	font-size: 22px;
+	line-height: 40px;
+	font-weight: 100;
+}
+
+.colum{
+	text-align: center;
+	background-color: #F5F5F5;
 }
