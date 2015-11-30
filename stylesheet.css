@@ -448,6 +448,9 @@ body .course-btn:hover{
 	margin-bottom: 10px;
 	display: inline-block;
 	margin: 15px;
+	box-shadow: 0 2px #dcdcdc;
+	border-left: 1px solid #dcdcdc;
+	border-right: 1px solid #dcdcdc;
 }
 
 .colum-btn{
@@ -464,4 +467,44 @@ body .colum-btn:hover{
 	transition: all 0.5s;
 	background-color:#444;
 	color: #ddd;
+}
+
+.contact{
+	background-image: url("images/backgrounds/contact.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+.contain .contact-title h2{
+	color: white;
+}
+
+.contain .contact-text{
+	color: white;
+	text-align: left;
+}
+
+.contact h4{
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.contact p{
+	color: white;
+}
+
+.contact-text{
+	display: inline-block;
+}
+
+.contact-left{
+	float: left;
+	width: 60%;
+	display: block;
+}
+
+.contact-right{
+	float: right;
+	display: block;
+	width: 40%;
 }
