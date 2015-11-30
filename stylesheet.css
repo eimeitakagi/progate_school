@@ -245,7 +245,7 @@ z-index: 0;
 }
 
 .char-top{
-	background-color: #F5F5F5;
+	background-color: #f4f4f4;
 	height: 380px;
 	text-align: center;
 }
@@ -278,7 +278,7 @@ margin-bottom: 30px;
 }
 
 .course{
-	background-color: #F5F5F5;
+	background-color: #f4f4f4;;
 	text-align: center;
 	height: 850px;
 }
@@ -388,5 +388,80 @@ body .course-btn:hover{
 
 .colum{
 	text-align: center;
-	background-color: #F5F5F5;
+	background-color: #f4f4f4;;
+}
+
+.colum-title{
+	padding-top: 20px;
+}
+
+.colum-menu{
+	margin-top: -20px;
+}
+
+.colum-menu-btn {
+	display: inline;
+	padding: 10px 14px;
+	color: #323A45;
+	font-weight: 500;
+	background-color: white;
+	margin-right: 5px;
+}
+
+.colum-menu-btn:hover{
+	transition: all 0.3s;
+	color: white;
+	background-color: #00CED1;
+	cursor: pointer;
+}
+
+.colum-menu .selected{
+	color: white;
+	background-color: #00CED1;
+	cursor: default;
+}
+
+.colums{
+	margin-top:20px;
+}
+
+.colum-item-top{
+	position: relative;
+	top:10px;
+	left: auto;
+}
+
+.colum-item-top img{
+	height: 250px;
+	width: 450px;
+}
+
+.colum-item-top a{
+	color: #555;
+	font-weight: 600;
+}
+
+.colum-item{
+	height: 350px;
+	width: 470px;
+	background-color: white;
+	margin-bottom: 10px;
+	display: inline-block;
+	margin: 15px;
+}
+
+.colum-btn{
+	background-color: #333;
+	color: #c9d1d6;
+	padding: 14px 16px;
+}
+
+.colum-bottom{
+	line-height: 130px;
+}
+
+body .colum-btn:hover{
+	transition: all 0.5s;
+	background-color:#444;
+	color: #ddd;
 }
