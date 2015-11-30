@@ -291,8 +291,9 @@ margin-bottom: 30px;
 	display: inline-block;
 	background-color: white;
 	width: 30%;
-	margin: 10px;
+	margin-right: 30px;
 	height: 600px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .course-title h2{
@@ -313,6 +314,9 @@ margin-bottom: 30px;
 
 .header-bottom{
 	background-color: #F5F5F5;
+	margin-top: -25px;
+	padding: 18px 0;
+	margin-bottom: 40px;
 }
 
 .selected{
@@ -321,6 +325,7 @@ margin-bottom: 30px;
 
 .course-content{
 	margin-bottom: 40px;
+	width: 85%;
 }
 
 .course-content li{
@@ -526,10 +531,14 @@ body .colum-btn:hover{
 	margin-bottom: 20px;
 	background-color: rgba(255,255,255,0.1);
 	border: none;
+	line-height: 20px;
+	font-size: 16px;
+	padding-left: 15px;
 }
 
 .contact-form .form-frame-message{
-	height: 200px;
+	height: 180px;
+	padding-top: 20px;
 }
 
 .submit{
@@ -538,8 +547,16 @@ body .colum-btn:hover{
 	padding: 20px 30px;
 }
 
-.contact-right-bottom{
+.contact-left-bottom{
 	margin-top: 25px;
+}
+
+.contact-right p{
+	line-height: 25px;
+}
+
+.contact-left-bottom a:hover{
+	color:white;
 }
 
 .follow{
