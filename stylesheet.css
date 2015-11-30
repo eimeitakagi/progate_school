@@ -33,7 +33,7 @@ header{
 	right: 0;
 	background-color: white;
 	line-height: 50px;
-	box-shadow: 0 2px #dcdcdc;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 	z-index: 10;
 }
 
@@ -319,6 +319,10 @@ margin-bottom: 30px;
 	background-color: #00CED1	;
 }
 
+.course-content{
+	margin-bottom: 40px;
+}
+
 .course-content li{
 	color: #888;
 	font-size: 14px;
@@ -475,6 +479,12 @@ body .colum-btn:hover{
 	text-align: center;
 }
 
+.contact-bgc{
+	background-color: rgba(0,0,0,0.6);
+	padding-top: 20px;
+	padding-bottom:80px;
+}
+
 .contain .contact-title h2{
 	color: white;
 }
@@ -495,6 +505,7 @@ body .colum-btn:hover{
 
 .contact-text{
 	display: inline-block;
+	margin-top: -85px;
 }
 
 .contact-left{
@@ -507,4 +518,37 @@ body .colum-btn:hover{
 	float: right;
 	display: block;
 	width: 40%;
+}
+
+.form-frame{
+	width:600px;
+	height: 50px;
+	margin-bottom: 20px;
+	background-color: rgba(255,255,255,0.1);
+	border: none;
+}
+
+.contact-form .form-frame-message{
+	height: 200px;
+}
+
+.submit{
+	background-color: #00CED1;
+	color: white;
+	padding: 20px 30px;
+}
+
+.contact-right-bottom{
+	margin-top: 25px;
+}
+
+.follow{
+	text-align: center;
+}
+
+footer{
+	background-color: #222;
+	text-align: center;
+	color: white;
+	padding: 16px 0;
 }
