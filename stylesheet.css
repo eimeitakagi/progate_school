@@ -446,6 +446,7 @@ body .colum-btn:hover{
 	line-height: 20px;
 	font-size: 16px;
 	padding-left: 15px;
+	color: white;
 }
 
 .contact-form .form-frame-message{
@@ -480,4 +481,21 @@ footer{
 	text-align: center;
 	color: white;
 	padding: 16px 0;
+}
+
+.follow-icon a{
+	color: #444;
+}
+
+.fa-map-marker{
+	margin-right: 20px;
+}
+
+.follow-icon{
+	margin-bottom: 50px;
+	margin-top: -10px;
+}
+
+.follow-icon .fa{
+	padding: 10px;
 }
