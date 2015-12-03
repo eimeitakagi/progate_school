@@ -78,7 +78,7 @@ header{
 	padding-bottom: 150px;
 }
 
-.top{
+#top{
 	background-image: url("images/backgrounds/top.jpg");
 	background-size: cover;
 	margin: 0 auto;
@@ -125,8 +125,12 @@ header{
 	font-weight: 300;
 }
 
-.lesson{
+#lesson{
 	text-align: center;
+}
+
+#lesson h2{
+	padding-top: 30px;
 }
 
 .lesson-top {
@@ -149,11 +153,11 @@ header{
 	font-weight: 200;
 }
 
-.char{
+#char{
 	margin-top: 50px;
 }
 
-.char h2{
+#char h2{
 position: relative;
 top: 40px;
 z-index: 0;
@@ -192,7 +196,7 @@ margin-bottom: 30px;
 	font-family: sans-serif;
 }
 
-.course{
+#course{
 	background-color: #f4f4f4;;
 	text-align: center;
 	height: 850px;
@@ -313,7 +317,7 @@ body .course-btn:hover{
 	font-weight: 100;
 }
 
-.colum{
+#colum{
 	text-align: center;
 	background-color: #f4f4f4;;
 }
@@ -402,7 +406,7 @@ body .colum-btn:hover{
 	color: #ddd;
 }
 
-.contact{
+#contact{
 	background-image: url("images/backgrounds/contact.jpg");
 	background-size: cover;
 	text-align: center;
