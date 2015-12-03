@@ -86,6 +86,10 @@ header{
 	text-align: center;
 }
 
+.btn{
+	cursor: pointer;
+}
+
 .top-title{
 	font-size: 48px;
 	font-weight: 200;
@@ -121,13 +125,6 @@ header{
 	font-weight: 300;
 }
 
-.contain p{
-	color: #777;
-	font-size: 14px;
-	font-weight: 200;
-	font-family: sans-serif;
-}
-
 .lesson{
 	text-align: center;
 }
@@ -144,6 +141,12 @@ header{
 .lesson-item{
 	margin-bottom:40px;
 	width: 350px;
+}
+
+.lesson-item-text{
+	color: #777;
+	font-size: 14px;
+	font-weight: 200;
 }
 
 .char{
@@ -269,6 +272,9 @@ body .course-btn:hover{
 .mentor-item{
 	width: 850px;
 	margin: 0 auto;
+	color: #777;
+	font-size: 14px;
+	font-weight: 200;
 }
 
 .mentor-item img{
@@ -360,6 +366,12 @@ body .course-btn:hover{
 .colum-item-top a{
 	color: #555;
 	font-weight: 600;
+}
+
+.colum-item-bottom{
+	color: #777;
+	font-size: 14px;
+	font-weight: 200;
 }
 
 .colum-item{
@@ -498,4 +510,15 @@ footer{
 
 .follow-icon .fa{
 	padding: 10px;
+}
+
+#text-js{
+	display: none;
+	color: white;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+#text-js p{
+	margin-top: 30px;
 }
