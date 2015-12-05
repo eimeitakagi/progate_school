@@ -25,14 +25,12 @@ $(function(){
 
 //スライド
   $('#bxSlider').bxSlider({
-    auto: 'true',
+    auto: true,
     pause: 5000,
-    speed: 700,
-    infiniteLoop: 'true',
-    pager: 'true',
-    controls: 'true',
-    nextText: '',
-    prevText:''
+    speed: 800,
+    infiniteLoop: true,
+    controls: false,
+
   });
 
 
