@@ -30,8 +30,6 @@ $(function(){
     speed: 800,
     infiniteLoop: true,
     controls: false,
-
   });
-
 
 });
