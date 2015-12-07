@@ -359,14 +359,12 @@ body .course-btn:hover{
 
 .colum-item-top{
 	position: relative;
-	top:10px;
-	left: auto;
+	padding-top: 7px;
 }
 
 .colum-item-top img{
 	height: 250px;
 	width: 450px;
-	margin-bottom: 15px;
 }
 
 .colum-img{
@@ -382,13 +380,13 @@ body .course-btn:hover{
 	margin-top: 20px;
 }
 
-.colum-img-bgc {
+.colum-img-bgc{
 	transform: scale(1.2,1.2);
 	transition: all 0.3s;
 	opacity: 0.4;
 }
 
-.colum-img-bgc-remove {
+.colum-img-bgc-remove{
 	transform: scale(1.0,1.0);
 	transition: all 0.3s;
 	opacity: 1;
@@ -403,6 +401,7 @@ body .course-btn:hover{
 	color: #777;
 	font-size: 14px;
 	font-weight: 200;
+	margin-top: -10px;
 }
 
 .colum-item{
@@ -558,7 +557,7 @@ footer{
 	display: inline-block;
 }
 
-.bx-wrapper .bx-pager {
+.bx-wrapper .bx-pager{
   text-align: center;
   font-size: .85em;
   font-family: Arial;
@@ -567,7 +566,7 @@ footer{
   line-height: 80px;
 }
 
-.bx-wrapper .bx-pager.bx-default-pager a {
+.bx-wrapper .bx-pager.bx-default-pager a{
   background-color: #999;
   text-indent: -9999px;
   display: block;
@@ -580,6 +579,6 @@ footer{
   border-radius: 10px;
 }
 
-.bx-wrapper .bx-pager.bx-default-pager .active  {
+.bx-wrapper .bx-pager.bx-default-pager .active{
   background-color: #666;
 }
