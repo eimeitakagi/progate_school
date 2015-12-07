@@ -374,6 +374,7 @@ body .course-btn:hover{
 	height: 250px;
 	width: 450px;
 	margin: auto;
+	background-color: #000;
 }
 
 .colum-link{
@@ -381,14 +382,16 @@ body .course-btn:hover{
 	margin-top: 20px;
 }
 
-
-img:hover{
-	background-color: 000;
-}
-
-.colum-item-top img:hover {
+.colum-img-bgc {
 	transform: scale(1.2,1.2);
 	transition: all 0.3s;
+	opacity: 0.4;
+}
+
+.colum-img-bgc-remove {
+	transform: scale(1.0,1.0);
+	transition: all 0.3s;
+	opacity: 1;
 }
 
 .colum-item-top a{

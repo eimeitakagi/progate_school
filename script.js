@@ -32,4 +32,14 @@ $(function(){
     controls: false,
   });
 
+  $('.colum-item-top img').hover(
+    function(){
+      $(this).removeClass('colum-img-bgc-remove');
+      $(this).addClass('colum-img-bgc');
+    },
+    function(){
+      $(this).removeClass('colum-img-bgc');
+      $(this).addClass('colum-img-bgc-remove');
+    });
+
 });
