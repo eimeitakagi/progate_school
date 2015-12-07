@@ -287,22 +287,28 @@
         <div class="contact-title"><h2>お問い合わせ</h2></div>
         <div class="contact-text">
           <div class="contact-left">
-            <h4>メッセージを送る</h4>
+            <h4 class="contact-left-message">メッセージを送る</h4>
+            <h4 class="show-none">お問い合わせありがとうございます。</h4>
 
-            <form class="contact-form" action="index.html" method="post">
-              <div>
-                <input type="email" name="email" placeholder="Email" class="form-frame" />
-              </div>
-              <div>
-                <input type="text" name="subject" placeholder="Subject"  class="form-frame" />
-              </div>
-              <div>
-                <textarea type="msg" name="message" placeholder="Message"  class="form-frame form-frame-message"></textarea>
-              </div>
-              <div>
-                <input type="button" value="Submit" class="submit" />
-              </div>
-            </form>
+            <div class="contact-form">
+              <form action="index.html" method="post">
+                <div class="contact-form-name">
+                  <p class="alert show-none">入力してください</p>
+                  <input type="email" name="email" placeholder="Email" class="form-frame form-name" />
+                </div>
+                <div class="contact-form-subject">
+                  <p class="alert show-none">入力してください</p>
+                  <input type="text" name="subject" placeholder="Subject"  class="form-frame form-subject" />
+                </div>
+                <div class="contact-form-message">
+                  <p class="alert show-none">入力してください</p>
+                  <textarea type="msg" name="message" placeholder="Message"  class="form-frame form-frame-message form-message"></textarea>
+                </div>
+                <div>
+                  <input type="button" value="Submit" class="submit" />
+                </div>
+              </form>
+            </div>
           </div>
           <div class="contact-right">
             <h4>About us</h4>

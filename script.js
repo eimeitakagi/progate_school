@@ -51,7 +51,6 @@ $(function(){
     $('.prog-show').fadeOut('500');
     $('.colum-show').fadeIn('500');
   });
-
   $('.colum-menu-btn-prog').click(     //プログラミングTips
     function(){
       $('.colum-menu-btn').removeClass('selected');
@@ -59,7 +58,6 @@ $(function(){
       $('.colum-show').fadeOut('500');
       $('.prog-show').fadeIn('500');
     });
-
   $('.colum-menu-btn-all').click(     //showall
     function(){
       $('.colum-menu-btn').removeClass('selected');
@@ -68,6 +66,24 @@ $(function(){
       $('.prog-show').fadeIn('500');
     });
 
+//コンタクト
+  $('.submit').click(function(){
+    if($('.form-name').val() == ''){
+      $('.contact-form-name p').removeClass('show-none');
+    }
+    if($('.form-subject').val() == ''){
+      $('.contact-form-subject p').removeClass('show-none');
+    }
+    if($('.form-message').val() == ''){
+      $('.contact-form-message p').removeClass('show-none');
+    }
+
+    if($('.form-name').val() != '' && $('from-subject').val != '' && $('.form-message').val != ''){
+      $('.contact-left-message').css('display', 'none');
+      $('.show-none').removeClass('show-none');
+      $('.contact-form').css('display', 'none');
+    }
+  });
 
 
 });

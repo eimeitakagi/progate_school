@@ -439,6 +439,11 @@ body .colum-btn:hover{
 	text-align: center;
 }
 
+.alert{
+	margin: 0;
+	font-size: 14px;
+}
+
 .contact-bgc{
 	background-color: rgba(0,0,0,0.6);
 	padding-top: 20px;
@@ -455,7 +460,7 @@ body .colum-btn:hover{
 }
 
 #contact h4{
-	font-size: 24px;
+	font-size: 23px;
 	font-weight: 300;
 }
 
@@ -470,18 +475,19 @@ body .colum-btn:hover{
 
 .contact-left{
 	float: left;
-	width: 60%;
+	width: 50%;
 	display: block;
 }
 
 .contact-right{
-	float: right;
+	float: left;
 	display: block;
 	width: 40%;
+	margin-left: 100px;
 }
 
 .form-frame{
-	width:600px;
+	width:590px;
 	height: 50px;
 	margin-bottom: 20px;
 	background-color: rgba(255,255,255,0.1);
@@ -508,6 +514,7 @@ body .colum-btn:hover{
 
 .contact-right p{
 	line-height: 25px;
+	font-size: 14px;
 }
 
 .contact-left-bottom a:hover{
@@ -581,4 +588,8 @@ footer{
 
 .bx-wrapper .bx-pager.bx-default-pager .active{
   background-color: #666;
+}
+
+.show-none{
+	display: none;
 }
