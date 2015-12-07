@@ -376,6 +376,11 @@ body .course-btn:hover{
 	margin: auto;
 }
 
+
+img:hover{
+	background-color: 000;
+}
+
 .colum-item-top img:hover {
 	transform: scale(1.2,1.2);
 	transition: all 0.3s;
@@ -442,7 +447,7 @@ body .colum-btn:hover{
 	text-align: left;
 }
 
-.contact h4{
+#contact h4{
 	font-size: 24px;
 	font-weight: 300;
 }
@@ -488,11 +493,10 @@ body .colum-btn:hover{
 .submit{
 	background-color: #00CED1;
 	color: white;
-	padding: 20px 30px;
-}
-
-.contact-left-bottom{
-	margin-top: 25px;
+	padding: 15px 30px;
+	cursor: pointer;
+	font-size: 18px;
+	border: 1px solid #00CED1;
 }
 
 .contact-right p{
