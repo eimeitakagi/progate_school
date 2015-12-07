@@ -376,6 +376,11 @@ body .course-btn:hover{
 	margin: auto;
 }
 
+.colum-link{
+	display: block;
+	margin-top: 20px;
+}
+
 
 img:hover{
 	background-color: 000;
