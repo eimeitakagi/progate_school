@@ -111,6 +111,7 @@ header{
 
 .top-btn{
 	color: rgba(255, 255, 255, 0.8);
+	font-weight: 900;
 	background-color: rgba(255, 255, 255, 0.05);
 	padding: 14px 21px;
 	border: 1px solid rgba(255, 255, 255, 0.15);
@@ -279,6 +280,7 @@ body .selected{
 	background-color: #333;
 	color: #c9d1d6;
 	padding: 18px 23px;
+	font-weight: 900;
 }
 
 body .course-btn:hover{
@@ -292,12 +294,11 @@ body .course-btn:hover{
 }
 
 .mentor-item{
-	width: 850px;
-	margin: 0 auto;
 	color: #777;
 	font-size: 14px;
 	font-weight: 200;
 }
+
 
 .mentor-item img{
 	height: 200px;
@@ -309,6 +310,8 @@ body .course-btn:hover{
 	font-size: 18px;
 	font-weight: 400;
 	color: #444;
+	margin: 0 auto;
+	width: 80%;
 }
 
 .mentor-item h6{
