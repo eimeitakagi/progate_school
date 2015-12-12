@@ -14,6 +14,10 @@ a{
 	text-decoration: none;
 }
 
+body a{
+		transition: all 0.4s;
+}
+
 body a:hover{
 	color: #00CED1;
 	transition: all 0.4s;
@@ -21,7 +25,7 @@ body a:hover{
 
 body .top-btn:hover{
 	border: 1px solid white;
-	transition: all 0.4s;
+	transition: all 0.6s;
 	color: rgba(255, 255, 255, 0.8);
 }
 
@@ -51,9 +55,9 @@ header{
 }
 
 .logo{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'HiraKakuPro-W6';
+	font-weight: 700;
 	color: #777;
-	font-weight: bold;
 	font-size: 18px;
 }
 
@@ -111,13 +115,14 @@ header{
 	padding: 14px 21px;
 	border: 1px solid rgba(255, 255, 255, 0.15);
 	font-size: 18px;
+	transition: all 0.6s;
 }
 
 .contain h2{
 	font-weight: 200;
-	color: #555;
+	color: #444;
 	font-size: 32px;
-	line-height: 100px;
+	line-height: 62px;
 }
 
 .contain h3{
@@ -162,6 +167,8 @@ header{
 position: relative;
 top: 40px;
 z-index: 0;
+padding-top: 15px;
+padding-bottom: 18px;
 }
 
 .char-top{
@@ -171,23 +178,32 @@ z-index: 0;
 }
 
 .char-bottom{
-	margin-top:100px;
-	margin-bottom: 30px;
-	padding-left: 95px;
+	margin-top:110px;
+	padding-left: 80px;
 }
 
-.char-item{
-	display: inline-block;
-	width:40%;
-	vertical-align: top;
-	margin-right: 80px;
-margin-bottom: 30px;
+.char-item {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-right: 60px;
+  margin-bottom: 40px;
 }
+
+.sub-title{
+	width: 470px;
+}
+
+.sub-text{
+	width: 470px;
+}
+
 
 .char-bottom h3{
 	font-size:18px;
 	color: #444;
 	font-weight: 300;
+	margin-bottom: -5px;
 }
 
 .char-bottom p{
@@ -224,8 +240,9 @@ margin-bottom: 30px;
 	margin: 15px;
 }
 
-.header-top{
+body .header-top{
 	background-color: #323A45;
+	line-height: 100px;
 }
 
 .contain .header-top{
@@ -233,13 +250,13 @@ margin-bottom: 30px;
 }
 
 .header-bottom{
-	background-color: #F5F5F5;
-	margin-top: -25px;
-	padding: 18px 0;
+	background-color: #F4F4F4;
+	margin-top: -30px;
+	padding: 30px 0;
 	margin-bottom: 40px;
 }
 
-.selected{
+body .selected{
 	background-color: #00CED1	;
 }
 
@@ -254,7 +271,7 @@ margin-bottom: 30px;
 	font-weight: 200;
 	font-family: sans-serif;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid #f4f4f4;
 	padding-bottom: 20px;
 }
 
@@ -291,6 +308,7 @@ body .course-btn:hover{
 .mentor-item p{
 	font-size: 18px;
 	font-weight: 400;
+	color: #444;
 }
 
 .mentor-item h6{
@@ -324,7 +342,8 @@ body .course-btn:hover{
 }
 
 .colum-title{
-	padding-top: 20px;
+	padding-top: 30px;
+	margin-bottom: 40px;
 }
 
 .colum-menu{
@@ -332,29 +351,30 @@ body .course-btn:hover{
 }
 
 .colum-menu-btn {
+	transition: all 0.4s;
 	display: inline;
 	padding: 10px 14px;
 	color: #323A45;
-	font-weight: 500;
+	font-weight: 900;
 	background-color: white;
 	margin-right: 5px;
 }
 
 .colum-menu-btn:hover{
-	transition: all 0.3s;
+	transition: all 0.4s;
 	color: white;
-	background-color: #00CED1;
+	background-color: #009999;
 	cursor: pointer;
 }
 
 .colum-menu .selected{
 	color: white;
-	background-color: #00CED1;
+	background-color: #009999;
 	cursor: default;
 }
 
 .colums{
-	margin-top:20px;
+	margin-top:30px;
 }
 
 .colum-item-top{
@@ -411,7 +431,7 @@ body .course-btn:hover{
 	margin-bottom: 10px;
 	display: inline-block;
 	margin: 15px;
-	box-shadow: 0 2px #dcdcdc;
+	box-shadow: 0 1px rgba(0, 0, 0, 0.2);
 	border-left: 1px solid #dcdcdc;
 	border-right: 1px solid #dcdcdc;
 }
@@ -460,8 +480,9 @@ body .colum-btn:hover{
 }
 
 #contact h4{
-	font-size: 23px;
+	font-size: 22px;
 	font-weight: 300;
+	margin-bottom: 30px;
 }
 
 .contact p{
@@ -470,7 +491,7 @@ body .colum-btn:hover{
 
 .contact-text{
 	display: inline-block;
-	margin-top: -85px;
+	margin-top: -40px;
 }
 
 .contact-left{
@@ -499,17 +520,18 @@ body .colum-btn:hover{
 }
 
 .contact-form .form-frame-message{
-	height: 180px;
+	height: 163px;
 	padding-top: 20px;
 }
 
 .submit{
 	background-color: #00CED1;
 	color: white;
-	padding: 15px 30px;
+	padding: 14px 32px;
 	cursor: pointer;
 	font-size: 18px;
 	border: 1px solid #00CED1;
+	margin-top: 3px;
 }
 
 .contact-right p{
@@ -523,13 +545,23 @@ body .colum-btn:hover{
 
 .follow{
 	text-align: center;
+	height: 200px;
+}
+
+.follow-title{
+	margin-top: 60px;
 }
 
 footer{
 	background-color: #222;
 	text-align: center;
-	color: white;
 	padding: 16px 0;
+}
+
+footer h5{
+	color: #888;
+	font-weight: 300;
+	font-size: 14px;
 }
 
 .follow-icon a{
@@ -541,7 +573,6 @@ footer{
 }
 
 .follow-icon{
-	margin-bottom: 50px;
 	margin-top: -10px;
 }
 

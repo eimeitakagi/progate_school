@@ -78,7 +78,7 @@ $(function(){
       $('.contact-form-message p').removeClass('show-none');
     }
 
-    if($('.form-name').val() != '' && $('from-subject').val != '' && $('.form-message').val != ''){
+    if($('.form-name').val() != '' && $('from-subject').val() != '' && $('.form-message').val() != ''){
       $('.contact-left-message').css('display', 'none');
       $('.show-none').removeClass('show-none');
       $('.contact-form').css('display', 'none');
