@@ -151,7 +151,7 @@ header{
 
 .lesson-item{
 	margin-bottom:40px;
-	width: 350px;
+	width: 360px;
 }
 
 .lesson-item-text{
@@ -282,6 +282,7 @@ body .selected{
 	color: #c9d1d6;
 	padding: 18px 23px;
 	font-weight: 900;
+	font-size: 18px;
 }
 
 body .course-btn:hover{
@@ -362,6 +363,11 @@ body .course-btn:hover{
 	font-weight: 900;
 	background-color: white;
 	margin-right: 5px;
+}
+
+.colum-menu-btn-all {
+  font-size: 13px;
+  padding: 12px 12px;
 }
 
 .colum-menu-btn:hover{
